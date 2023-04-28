@@ -29,9 +29,9 @@ def voice(message):
     voice(message)
 
 
-TargetTime = "2023-04-16 16:39:00.00000000"  # 设置抢购时间
+TargetTime = "2023-04-27 16:59:00.00000000"  # 设置抢购时间
 WebDriver = webdriver.Chrome()
-wait = WebDriverWait(WebDriver, 0.5)
+wait = WebDriverWait(WebDriver, 9999999999)
 if len(config["bilibili_cookies"]) == 0:
     WebDriver.get(
         buy_url)  # 输入目标购买页面
